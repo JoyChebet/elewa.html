@@ -5,7 +5,7 @@ body{
  }
 header{
     border-bottom: solid white;
-    margin: 0px;
+    margin:0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,6 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    text-decoration: none;
     font-size: 16px;
     justify-content: flex-end;
     font-family: sans-serif;
@@ -31,5 +30,4 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #02e3f7;
-    text-decoration: underline;
 }
