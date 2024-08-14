@@ -1,10 +1,11 @@
 body{
-    background-color: black;
+    background-color: rgb(71, 59, 59);
     margin: 0;
     padding: 0;
  }
 header{
-    border-bottom: solid white;
+    position: relative;
+    background-color: black;
     margin: 0px;
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,17 @@ header{
     padding: 20px;
     color: #fff; 
 }
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 2px; /* The thickness of the border */
+    background-color: rgb(223, 223, 223); /* The color of the border */
+  }
 nav ul {
     list-style: none;
     display: flex;
@@ -30,6 +42,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #02e3f7;
+    color: #02c2f7;
     text-decoration: underline;
 }
